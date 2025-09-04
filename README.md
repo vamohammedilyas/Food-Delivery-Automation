@@ -28,18 +28,18 @@ The project also integrates **Extent Reports** for rich HTML reporting.
 
 ## 📂 Project Structure
 Food-Delivery-Automation/
-├── src/
-│ ├── main/java/com/automation/pages/ # Page Object Model classes
-│ │ ├── HomePage.java
-│ │ ├── RestaurantPage.java
-│ │ ├── CartPage.java
-│ │ └── CheckoutPage.java
-│ ├── main/java/com/automation/utils/ # Utilities
-│ │ └── BaseTest.java
-│ ├── test/java/com/automation/tests/ # Test classes
-│ │ └── FoodDeliveryTest.java
-├── reports/ # Extent Reports output
-├── pom.xml
-├── testng.xml
-├── README.md
-└── .gitignore
+ ├── src/
+ │   ├── main/java/com/automation/pages/      # POM classes
+ │   │    ├── HomePage.java
+ │   │    ├── RestaurantPage.java
+ │   │    ├── CartPage.java
+ │   │    └── CheckoutPage.java
+ │   ├── main/java/com/automation/utils/      # Utilities
+ │   │    └── BaseTest.java
+ │   ├── test/java/com/automation/tests/      # Test classes
+ │   │    └── FoodDeliveryTest.java
+ ├── reports/                                 # Test reports
+ ├── pom.xml
+ ├── testng.xml
+ ├── README.md
+ └── .gitignore
