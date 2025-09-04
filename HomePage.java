@@ -10,7 +10,7 @@ public class HomePage {
     By firstLocation = By.xpath("//span[contains(text(),'Bangalore')]");
     By searchBox = By.xpath("//input[@placeholder='Search for restaurants or dishes']");
     By firstRestaurant = By.xpath("(//div[contains(@class,'_3XX_A')])[1]");
-
+//constructor
     public HomePage(WebDriver driver) {
         this.driver = driver;
     }
