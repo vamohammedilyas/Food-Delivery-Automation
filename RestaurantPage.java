@@ -7,7 +7,7 @@ public class RestaurantPage {
     WebDriver driver;
 
     By firstFoodAddButton = By.xpath("(//div[contains(text(),'ADD')])[1]");
-
+//constructor
     public RestaurantPage(WebDriver driver) {
         this.driver = driver;
     }
