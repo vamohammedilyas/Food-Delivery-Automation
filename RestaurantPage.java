@@ -7,13 +7,13 @@ public class RestaurantPage {
     WebDriver driver;
 
     By firstFoodAddButton = By.xpath("(//div[contains(text(),'ADD')])[1]");
-//constructor
+//constructor Creation
     public RestaurantPage(WebDriver driver) {
         this.driver = driver;
     }
 
     public void addFoodToCart() throws InterruptedException {
         driver.findElement(firstFoodAddButton).click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
     }
 }
