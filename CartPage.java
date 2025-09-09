@@ -11,7 +11,7 @@ public class CartPage {
 
     public CartPage(WebDriver driver) {
         this.driver = driver;
-    }
+    } 
 
     public void proceedToCheckout() throws InterruptedException {
         driver.findElement(checkoutButton).click();
