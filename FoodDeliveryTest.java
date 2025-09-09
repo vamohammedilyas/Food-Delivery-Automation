@@ -11,7 +11,7 @@ public class FoodDeliveryTest extends BaseTest {
     public void foodOrderFlow() throws InterruptedException {
         HomePage home = new HomePage(driver);
         home.enterLocation("Bangalore");
-        home.searchRestaurant("Pizza");
+        home.searchRestaurant("Pizzas");
 
         RestaurantPage restaurant = new RestaurantPage(driver);
         restaurant.addFoodToCart();
